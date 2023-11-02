@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.3.0",
+    "@remix-run/dev": "^2.2.0",
+    "@remix-run/node": "^2.2.0",
+    "@remix-run/react": "^2.2.0",
     "astro": "^3.4.2",
     "typescript": "^5.2.2"
   }
