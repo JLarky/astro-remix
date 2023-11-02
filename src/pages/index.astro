@@ -1,6 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import { requestHandler } from "./_remix";
+return requestHandler(Astro.request)
 ---
 
 <Layout title="Welcome to Astro.">
